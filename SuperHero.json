@@ -1,0 +1,40 @@
+{
+  "nombreCuadrilla" : "Super Heroes Criollos",
+  "CiudadNatal" : "Tunja",
+  "Formada_el" : 2023,
+  "Base_Secreta" : "La PapiCueva",
+  "active" : true,
+  "miembros" : [
+    {
+      "Nombre" : "Juan Duque",
+      "age" : 35,
+      "secretIdentity" : "BoyacoMan",
+      "powers" : [
+        "Rayo Lazer",
+        "Vision Nocturna",
+        "Super Sembrado de Papa"
+      ]
+    },
+    {
+      "Nombre" : "Jaime Perez",
+      "age" : 40,
+      "secretIdentity" : "Arador",
+      "powers" : [
+        "Velocidad Arador",
+        "Super Sembrado",
+        "Super Reflejos"
+      ]
+    },
+    {
+      "Nombre" : "Aurelio Suarez",
+      "age" : 700,
+      "secretIdentity" : "Pestimen",
+      "powers" : [
+        "Inmortalidad",
+        "Super Pesticidas",
+        "Crecer cultivos en segundos",
+        "Teletransportacion"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+/* || general styles */
+
+
+html {
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+  color: rgb(129, 3, 129);
+  font-weight: 900; 
+}
+body {
+  background-image: url("image/Fondo2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+@font-face {
+  font-family: 'Avenger';
+  src: url('fonts/AVENGEANCE.otf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+h1, h2 {
+  font-family: 'Avenger', cursive;
+  color: rgb(113, 5, 30); 
+}
+
+/* header styles */
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  color: rgb(164, 77, 6); 
+}
+
+header p {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+  color: aliceblue; 
+}
+
+/* section styles */
+
+section article {
+  width: 33%;
+  float: left;
+}
+
+section p {
+  margin: 5px 0;
+}
+
+section ul {
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+  color: rgb(56, 239, 6); 
+}

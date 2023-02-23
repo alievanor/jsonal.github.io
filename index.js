@@ -1,6 +1,6 @@
 async function populate() {
 
-    const requestURL = '../SuperHero.json';
+    const requestURL = '../ProyectoJson/SuperHero.json';
     const request = new Request(requestURL);
 
     const response = await fetch(request);

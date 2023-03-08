@@ -6,7 +6,29 @@
     <title>Heroes Criollos</title>
 
     <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+      .pdf{
+      border: none; 
+      background-color:#04AA6D; 
+      padding: 14px 28px; 
+      font-size: 20px; 
+      font-family: monospace;
+      cursor: pointer; 
+      display: inline-block;
+    }
+     
+    btn:hover {background: #eee;
+      }
+    
+      .pdf:hover {
+        background-color: #59ef95;
+        color: white;
+      }
+      
+
+    </style>
   </head>
   <body>
 
@@ -19,7 +41,14 @@
       </section>
 
       <script src="index.js"></script>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <center>
+      <button
+        class="btn pdf">
+        <a href="CargueJsonAndresLievano.pdf" target="_blank">Mostrar PDF</a>
+
+      </button>
+      </center>
     
   </body>
 </html>
